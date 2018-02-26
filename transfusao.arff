@@ -1,0 +1,47 @@
+%	
+%
+%	DATASET WEKA para Teste de Sangue
+%
+%	atributo de classe~> aglutinar: 0 - nao, 1 - sim
+%
+%
+@relation transfusao
+
+@attribute um {A, B, AB, O}
+@attribute dois  {a, b, ab, o}
+@attribute opcao {doar, receb}
+@attribute aglutinar {nao, sim}
+
+@data
+A,a,doar,nao
+A,a,receb,nao
+A,b,doar,sim
+A,b,receb,sim
+A,ab,doar,nao
+A,ab,receb,sim
+A,o,doar,sim
+A,o,receb,nao
+B,a,doar,sim
+B,a,receb,sim
+B,b,doar,nao
+B,b,receb,nao
+B,ab,doar,nao
+B,ab,receb,sim
+B,o,doar,sim
+B,o,receb,nao
+AB,a,doar,sim
+AB,a,receb,nao
+AB,b,doar,sim
+AB,b,receb,nao
+AB,ab,doar,nao
+AB,ab,receb,nao
+AB,o,doar,sim
+AB,o,receb,nao
+O,a,doar,nao
+O,a,receb,sim
+O,b,doar,nao
+O,b,receb,sim
+O,ab,doar,nao
+O,ab,receb,sim
+O,o,doar,nao
+O,o,receb,nao

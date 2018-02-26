@@ -1,0 +1,30 @@
+%	
+%    	legenda:
+%
+%       m~> masculino
+%       f~> feminino
+%
+%		n~> normal
+%		np~> normal/portadora
+%		h~> hemofilico(a)
+%
+@relation hemofilia
+
+@attribute sexo_filho {f, m}
+@attribute homem {n, h}
+@attribute mulher {n, np, h}
+@attribute classe {n, np, h}
+
+@data
+m,n,n,n
+f,n,n,n
+m,n,np,h
+m,n,np,n
+f,n,np,np
+m,n,h,h
+f,n,h,n
+f,n,h,np
+m,h,h,h
+f,h,h,h
+m,h,n,n
+f,h,n,np
